@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwXrz5tGYlt53tFXCOw3uGbzJncMdxji65UQ&usqp=CAU" rel="shortcut icon" type="image/icon" />
+    <title>Kelompok Enam Property</title>
+</head>
+<body>
+    <nav class="topnav">
+        <div>
+            <p id="logo" href="./index.html">KELOMPOK ENAM PROPERTY</p>
+            <ul>
+                <!-- <p id="logo" href="#home">KELOMPOK ENAM PROPERTY</p> -->
+                <a href="./index.html">HOME</a>
+                <a href="./aboutUs.html">ABOUT US</a>
+                <li><a href="#jual" onclick="tampilForm()">JUAL</a></li>   
+            </ul>
+            <input id="search" type="text" placeholder="Search by Location">
+            <button onclick="search()">Search</button>
+        </div>
+    </nav>
+    <div class="entireScreen" id="kelolaData">
+        <div class="loginInterface">
+            <form id="formHanun">
+                <input class="judul" type="text" placeholder="Nama property"><br>
+                <input class="url" type="text" placeholder="URL gambar"><br>
+                <input class="lokasi" type="text" placeholder="Lokasi"><br>
+                <select class="jenis">
+                    <option value="rumah">Rumah</option>
+                    <option value="apartemen">Apartemen</option>
+                    <option value="ruko">Ruko</option>
+                    <option value="kantor">Kantor</option>
+                </select><br>
+                <input class="harga" type="text" placeholder="Harga"><br>
+                <textarea class="deskripsi" name="deskripsi" rows="5" cols="20" placeholder="Deskripsi"></textarea><br>
+                <select class="status">
+                    <option value="jual">Jual</option>
+                    <option value="sewa">Sewa</option>
+                </select><br>
+                <input class="lb" type="text" placeholder="Luas Tanah / Luas Bangunan"><br><br>
+                <input class="upload" type="button" value="Upload Now"> 
+            </form>
+        </div>    
+    </div>
+    <div id="listProperty">
+        <!-- <div class="cards">
+            <img src="https://pictures.core.ninetynine.id/r123/1620x1080-fit/primary_property/project/2003/1600236003_background_2003.png?noWatermark" alt="Apartemen BRANZ BSD">
+            <h5>Apartemen BRANZ (1 Bedroom)</h5>
+            <span style="font-size: small;" style="font-weight: normal;" >Pagedangan, Tangerang</span><br>
+            <span style="font-size: small;" style="font-weight: normal;">Rp 1.352.000.000</span>
+        </div>
+        <div class="cards">
+            <img src="https://cdn-m2.fabelio.com/wysiwyg/townhouse_2.jpg" alt="Apartemen BRANZ BSD">
+            <h5>Apartemen BRANZ (1 Bedroom)</h5>
+            <span style="font-size: small;" style="font-weight: normal;" >Pagedangan, Tangerang</span><br>
+            <span style="font-size: small;" style="font-weight: normal;">Rp 1.352.000.000</span>
+        </div> -->
+    </div>
+    <footer>
+        <a href="./aboutUs.html">Contact Us</a>
+        <a href="#termsconditions">Terms & Conditions</a><br>
+        <p>© 2021 PT Kelompok Enam Semangat. All rights reserved.</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
+

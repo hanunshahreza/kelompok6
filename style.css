@@ -1,0 +1,261 @@
+.topnav {
+    position: fixed;
+    display: inline;
+    margin-left: 0px;
+    left: 0;
+    bottom: 0;
+    max-height: 80px;
+    top: 0;
+    width: 100%;
+    background-color: rgb(19, 49, 48);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.topnav a {
+    float: left;
+    color: rgb(140, 157, 167);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.topnav a:hover {
+    color: rgb(146, 223, 220);
+    transition: color 500ms;
+}
+
+.topnav ul li {
+    display: inline-block;
+    text-decoration: none;
+    position:relative;
+    align-content: space-between;
+}
+
+#logo {
+    font-weight: 300;
+    font-size: 20px;
+    float: left;
+    color: rgb(140, 157, 167);
+    padding-bottom: 0px;
+    padding-right: 35px;
+    margin: 10px;
+}
+
+#search {
+    margin: 0px;
+    align-self: auto;
+    display: flex;
+    align-items: flex-end;
+}
+
+img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.entireScreen {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    background-image: url(https://wallpapercave.com/wp/RyOUx0H.jpg);
+    background-size: 100vw;
+    min-height: 400px;
+    margin-bottom: 100px;
+    clear: both;
+}
+
+.loginInterface {
+    height: 50px;
+    max-height: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#formHanun input {
+    padding: 5px;
+    border-radius: 10px;
+    background-color:rgb(184, 184, 184);
+    color:black;
+    font-size: 12px;
+    margin: 3px 0;
+    width: 500px;
+    border: none;
+    outline-style: none;
+    font-family: 'Comfortaa', cursive;
+    height: 30px;
+}
+
+#formHanun input[type="button"] {
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: normal;
+    margin: 8px 0;
+    width: 100%;
+    background-color:blue;
+    color: white;
+    border: none;
+    font-family: 'Comfortaa', cursive;
+    height: 50px;
+}
+
+#formHanun textarea {
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(184, 184, 184);
+    color: black;
+    font-size: 12px;
+    margin: 3px 0;
+    width: 500px;
+    border: none;
+    outline-style: none;
+    font-family: 'Comfortaa', cursive;
+    height: 60px;
+}
+
+#formHanun select {
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(184, 184, 184);
+    color: black;
+    font-size: 12px;
+    margin: 3px 0;
+    width: 510px;
+    border: none;
+    outline-style: none;
+    font-family: 'Comfortaa', cursive;
+    height: 40px;
+}
+
+.body{
+    display: flex;
+    flex-wrap: wrap;
+    /* font-family: 'Open Sans', sans-serif; */
+
+}
+
+#listProperty {
+    min-height: 400px;
+    margin-bottom: 100px;
+    clear: both;
+}
+
+.cards {
+    background-color: white;
+    width: 250px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.cards img {  
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto;
+    
+}
+
+.cards span {
+    font-size: small;
+    font-weight: normal;
+}
+
+.cards h5{
+    background-color: #fff;
+    color: black;
+    border-radius: 50px;
+    width: 100%;
+    text-align: justify;
+    padding: 0px;
+    font-family: 'Comfortaa', cursive;
+    margin: 2.5px;
+}
+
+.cards h5:hover{
+    background-color: black;
+    color: #fff;
+    font-weight: bolder
+}
+
+.cards input[type="button"] {
+    padding: 0px;
+    border-radius: 7px;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 2.5px 0;
+    width: 47%;
+    background-color:rgb(165, 162, 162);
+    color: black;
+    border: black;
+    font-family: sans-serif;
+    height: 20px;
+    justify-content: space-between;
+}
+
+footer {
+    position: fixed;
+    display: inline;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 20px 15px 20px 15px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(19, 49, 48);
+    color: rgb(140, 157, 167);
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(140, 157, 167);
+    padding: 14px 16px;
+}
+
+footer a:hover {
+    color: rgb(146, 223, 220);
+    transition: color 500ms;
+}
+
+footer p {
+    padding-left: 15px;
+    color:rgb(86, 110, 110);
+}
+
+/* cinia add */
+
+
+.aboutUs h1 {
+    color:  rgb(19, 49, 48);
+    margin-top: 160px;
+    font-size: 68px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.aboutUs p {
+    margin-top: 0px;
+    font-size: 22px;
+    margin-left: 60px;
+    margin-right: 400px;
+}
+
+.aboutUs h2 {
+    margin-top: 160px;
+    margin-left: 20px;
+}
+
+.aboutUs ul {
+    margin-left: 30px;
+}
+
